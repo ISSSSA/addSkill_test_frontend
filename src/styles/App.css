@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.app {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  background-color: #2e2e2e;
+  color: #00ff00;
+}
+
+h2, h3 {
+  color: #00ff00;
+}

@@ -1,0 +1,20 @@
+.log-list {
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #00ff00;
+    overflow-y: scroll;
+}
+
+.log-list ul {
+    list-style-type: none;
+}
+
+.log-list li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.log-list li:hover {
+    text-decoration: underline;
+    color: #ff0000;
+}

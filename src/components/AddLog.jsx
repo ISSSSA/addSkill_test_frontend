@@ -47,7 +47,7 @@ function AddLog({onLogAdded}) {
         const data = await captureScreenshot();
         try {
             const response = await axios.post('http://localhost:8000/logs/content/create/', data);
-            onLogAdded(response.data); // Передаем новый лог в родительский компонент для обновления списка
+            onLogAdded(response.data);
         } catch (error) {
             console.error('Error creating log:', error);
         }
